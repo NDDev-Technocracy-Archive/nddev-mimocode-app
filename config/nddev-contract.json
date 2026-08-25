@@ -1,7 +1,7 @@
 {
   "contract_version": 2,
   "product_name": "nddev-mimocode-app",
-  "github_repository": "NDDev-it-com/nddev-mimocode-app",
+  "github_repository": "rldyourmnd/nddev-mimocode-app",
   "license": "AGPL-3.0-or-later",
   "setup_system": {
     "manager": "cli-tools/nddev_mimocode.py",
