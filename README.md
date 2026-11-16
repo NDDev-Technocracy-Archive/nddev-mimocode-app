@@ -108,3 +108,12 @@ The public validator is dependency-free, archive-safe, and does not install,
 launch, authenticate, or contact live MiMo Code services. It disables bytecode
 writes before importing local code, so the documented command leaves no
 `__pycache__` residue in a clean checkout.
+
+## Source maintenance checks
+
+`just check` validates the retained public contracts, workflow files and source
+history. `just verify` runs the complete source check. CI prepares Python and
+native audit tools from `.github/workflows/ci.yml` and the archive/member hashes in
+`.github/ci-tools.json`; local checks require those tools on `PATH`.
+These checks do not execute MiMo Code, authenticate a provider, update vendor files
+or publish a release.
