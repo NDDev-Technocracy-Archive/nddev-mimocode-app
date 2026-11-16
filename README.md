@@ -115,5 +115,5 @@ writes before importing local code, so the documented command leaves no
 history. `just verify` runs the complete source check. CI prepares Python and
 native audit tools from `.github/workflows/ci.yml` and the archive/member hashes in
 `.github/ci-tools.json`; local checks require those tools on `PATH`.
-These checks do not execute Mimocode, authenticate a provider, update vendor files
+These checks do not execute MiMo Code, authenticate a provider, update vendor files
 or publish a release.
